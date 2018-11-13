@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>LOGIN</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+		<script>
+			function validateform()
+			{
+				var x =document.forms["myForm"]["usrname"].value;
+				var y=document.forms["myForm"]["pass"].value;
+				if (x == "" || y == "")
+				{
+					alert("both the fields are mandatory, kindly provide the details listed  below to proceed");
+					return false;
+				}
+			}
+			function validateformm()
+			{
+				var x =document.forms["myForm1"]["usrname1"].value;
+				var y=document.forms["myForm1"]["pass1"].value;
+				if (x == "" || y == "")
+				{
+					alert("both the fields are mandatory, kindly provide the details listed  below to proceed");
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<header><h2>VARCHASVA &nbsp;&nbsp; SJBIT 2018</h2></header>
+		<div class="head">
+			<h1>admin</h1>
+		</div>
+		<div class="loginBox">
+			<form name="myForm" onsubmit="return validateform();" method="POST"  action="entermsg.php" >
+				<table >
+					<tr>
+						<td>
+							User Name:
+						</td>
+						<td>
+							<input size="30" type="text" name="usrname" >
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Password:
+						</td>
+						<td>
+							<input size="30" type="password" name="pass" >
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="but" type="submit" value="login" >
+						</td>
+					</tr>
+				</table>
+			</form>	
+		</div>
+
+		<div class="head1">
+			<h1>student</h1>
+		</div>
+		<div class="loginBox1">
+			<form name="myForm1" onsubmit="return validateformm();" method="POST"  action="entermsg1.php" >
+				<table >
+					<tr>
+						<td>
+							User Name:
+						</td>
+						<td>
+							<input size="30" type="text" name="usrname1" >
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Password:
+						</td>
+						<td>
+							<input size="30" type="password" name="pass1" >
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="but" type="submit" value="login" >
+						</td>
+					</tr>
+				</table>
+			</form>	
+		</div>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	background-image: url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	background-size: cover;
+}
+div.head
+{	
+	position:absolute;
+	top:50%;
+	left:30%;
+	margin-left:-181.069px;
+	margin-top:-107.8px;
+	max-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(0,0,0,0.3);
+	color: #ffffff;
+ 	text-align: center;
+ 	font-family: papyrus;
+ 	font-size: 12px;
+}
+h1
+{
+	margin: 0px;
+}
+h2
+{
+	font-family: papyrus;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+	color: #ffffff;
+}
+div.loginBox
+{
+	color: #000000;
+	opacity: .95;
+	padding: 20px;
+	margin: 0px;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	margin-top: -69px;
+	margin-left: -220px;
+	background-color: rgba(255,255,255,0.2);
+}
+div.loginBox1
+{
+	color: #000000;
+	opacity: .95;
+	padding: 20px;
+	margin: 0px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -69px;
+	margin-left: -220px;
+	background-color: rgba(255,255,255,0.2);
+}
+div.head1
+{
+	position:absolute;
+	top:50%;
+	left:70%;
+	margin-left:-181.069px;
+	margin-top:-107.8px;
+	max-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(0,0,0,0.3);
+	color: #ffffff;
+ 	text-align: center;
+ 	font-family: papyrus;
+ 	font-size: 12px;
+}
+tr
+{
+	padding: 5px;
+}
+td
+{
+	padding: 5px;
+}
+input.but
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	left: 50%;
+	margin-left: -28px;
+	border-radius: 20px;
+}
